@@ -1,20 +1,23 @@
 # UnileverFoodHackers2025
 Problem: 
-![image](https://github.com/user-attachments/assets/24708e84-1670-4537-b0f9-b3fd140dcd0a)
+![image](https://github.com/user-attachments/assets/6b8bda71-4ed3-45c7-89d8-066728f92ef5)
 
 
 Those are the solutions for optimization problem that is been case in the Unilever FoodHackers 2025 Case Study
 
-2 separate Model have been developed one aimed to maximize the profit and the second oen is aimed to maximize Volume of the producT    
+2 separate Model have been developed one aimed to maximize the profit and the second oen is aimed to maximize Volume of the product
 
 
 First Models Mathematical Expression:
-![image](https://github.com/user-attachments/assets/547de4b5-b440-47bb-8d1e-7a4429858c38)
+![image](https://github.com/user-attachments/assets/beeae7a6-e14a-439f-9192-60a3bafc10ff)
+
 
 
 Second Models Mathematical Expression:
-![image](https://github.com/user-attachments/assets/221945f6-8393-419d-a847-ed9e4e7df847)
+![image](https://github.com/user-attachments/assets/b9e9cc90-a908-4295-9813-648aef68672c)
 
+Since the pulp module didn'T optimized for quadratic equations the pertentage constraint tried iteratively on code with for loops. 
 
+Resulting with both feasible(Target Volume is yearly based) but depends on the strategy that firms choose.
 
-Resulting with both feasible(Target Volume is yearly based) but depends on the strategy that firms choose 
+For implementation of those mathematical models on Python check the ipynb files
